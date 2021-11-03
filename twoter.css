@@ -1,0 +1,119 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+.flex-container{
+    display: flex;
+}
+.Block1, .Block2, .Block3,{
+    flex:1 0 auto;
+    padding:10px;
+}
+.Block1{
+    background-color: white;
+    width:25%;
+    height:640px;
+}
+.Block2{
+    background-color:  rgb(245, 245, 245);
+    width:50%;
+    height:640px;
+    overflo: scroll;
+}
+.Block3{
+    background-color: white;
+    width:25%;
+    height:640px;
+}
+.icon{
+    padding-left: 130px;
+    font-size: 50px;
+}
+.icon2{
+    padding-left: 90px;
+    font-size: 30px;
+    color: blue;
+    display: flex;
+    column-gap: 10px;
+}
+.icon3{
+    padding-left: 90px;
+    font-size: 30px;
+    color: ;
+    display: flex;
+    column-gap: 15px;
+
+}
+.but{
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+}
+#textboxid{
+    width: 300px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: rgb(245, 245, 245);
+    border-color: rgb(245, 245, 245);
+}
+.trend{
+    width:300px;
+    background-color: rgb(245, 245, 245);
+    height: 500px;
+    border-radius: 10px;
+}
+.mid{
+    width:675px;
+    background-color: white;
+    height: 180px;
+}
+.topmid{
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    column-gap: 530px;
+
+}
+.topMid{
+    font-size: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.Profile{
+    display: flex;
+}
+.topMid, .topcenter{
+    flex: 10 0 auto;
+    padding: 10px;
+}
+.topcenter{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-right: 450px;
+}
+.CenteR{
+    border-radius: 50px;
+    width: 100px;
+    height: 30px;   
+}
+.Openion{
+    padding-left: 350px;
+    font-size: 25px;
+    color: blue;
+    display: flex;
+    column-gap: 10px;
+}
+.Smid{
+    width:675px;
+    background-color: white;
+    height: 480px;   
+}
+.icon2:hover{
+    background-color:  rgb(245, 245, 245);
+    cursor: pointer;
+}
+.icon3:hover{
+    background-color:  rgb(245, 245, 245);
+    cursor: pointer;
+} 
